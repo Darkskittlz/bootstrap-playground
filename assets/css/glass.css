@@ -12,16 +12,16 @@ body {
 
 #sidebar {
   position: absolute;
-  width: 25rem;
+  width: 11rem;
   height: 100%;
-  left: -400px;
+  left: -180px;
   transition: .4s;
   z-index: 1;
   border: 1px solid black;
   border-radius: 10px;
   top: 0px;
   background: #edc0bf;
-  background: linear-gradient(90deg, #bfcded 0, #a0f1b8 100%);
+  background: linear-gradient(90deg, #0f57ff81 0, #f552df8a 100%);
   backdrop-filter: blur(10px);
 } 
     
@@ -46,7 +46,7 @@ body {
   
 #sidebar .toggle-btn {
   position: absolute;
-  left: 420px;
+  left: 190px;
   top: 10px;
 }
   
@@ -58,6 +58,12 @@ body {
   margin-top: 4px;
 }
 
+#banner {
+  text-align: center;
+  display: block;
+  
+}
+
 .container-lg {
   display: block;
   margin: 0px auto;
@@ -66,7 +72,9 @@ body {
 }
 
 .headerIMG {
-  width: 44vh;
+  width: 40vh;
+  display:block;
+  margin-left: -17px;
 }
 
 .row h1 {
@@ -133,6 +141,22 @@ a {
   padding-bottom: 30px; /* this needs to be bigger than footer height*/
 }
 
+.example-content-main ul li {
+  margin-left: -10px;
+  font-weight: 600;
+}
+
+.example-content-secondary ul li {
+  margin-left: -10px;
+  font-weight: 400;
+}
+
+.sakura {
+  display: block;
+  width: 90%;
+  margin: 0px auto;
+  margin-bottom: 5px;
+}
 
 .footer {
   position: relative;
