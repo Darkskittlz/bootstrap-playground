@@ -5,137 +5,145 @@ html, body {
 body {
     padding: 4.5rem;
     margin: 0;
-    background: #edc0bf;
-    background: linear-gradient(90deg, #f1b1e4 0, #98a4f8 100%);
+    background-image: url(../../img/paper.png);
     font-family: 'Inter', sans-serif;
 }
 
 
 #sidebar {
-    position: absolute;
-    width: 25rem;
-    height: 100%;
-    left: -400px;
-    transition: .4s;
-    z-index: 1;
-    border: 1px solid black;
-    border-radius: 10px;
-    top: 0px;
-    background: #edc0bf;
-    background: linear-gradient(90deg, #bfcded 0, #a0f1b8 100%);
-    backdrop-filter: blur(10px);
-  } 
+  position: absolute;
+  width: 25rem;
+  height: 100%;
+  left: -400px;
+  transition: .4s;
+  z-index: 1;
+  border: 1px solid black;
+  border-radius: 10px;
+  top: 0px;
+  background: #edc0bf;
+  background: linear-gradient(90deg, #bfcded 0, #a0f1b8 100%);
+  backdrop-filter: blur(10px);
+} 
     
-  #sidebar.active {
-    left: 0;
-    height: 100%;
-  }
+#sidebar.active {
+  left: 0;
+  height: 100%;
+}
   
-  #sidebar ul li a {
-    text-decoration: none;
-    font-size: 30px;
-    color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
+#sidebar ul li a {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
   
-  #sidebar ul li{
-    list-style: none;
-    font-size: 40px;
-    padding: 2px 2px;
-  }
+#sidebar ul li{
+  list-style: none;
+  font-size: 40px;
+  padding: 2px 2px;
+}
 
   
-  #sidebar .toggle-btn {
-    position: absolute;
-    left: 420px;
-    top: 10px;
-  }
+#sidebar .toggle-btn {
+  position: absolute;
+  left: 420px;
+  top: 10px;
+}
   
-  .toggle-btn span {
-    width: 45px;
-    height: 4px;
-    background: rgba(2, 2, 2, 0.938);
-    display: block;
-    margin-top: 4px;
-  }
+.toggle-btn span {
+  width: 45px;
+  height: 4px;
+  background: rgba(2, 2, 2, 0.938);
+  display: block;
+  margin-top: 4px;
+}
 
+.container-lg {
+  display: block;
+  margin: 0px auto;
+  width: 407px;
+  margin-bottom: 10px;
+}
+
+.headerIMG {
+  width: 44vh;
+}
 
 .row h1 {
-    display: block;
-    margin: 0px auto;
+  display: block;
+  margin: 0px auto;
+  width: 100%;
 }
 
 .row h3 {
-    display: block;
-    margin: 0px auto;
-    margin-bottom: 20px;
-    font-size: 1em;
+  display: block;
+  margin: 0px auto;
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: 1em;
 }
 
-
-
 .col-3 {
-    border: 2px solid black;
-    border-radius: 10px;
-    left: 50px;
-    background: #edc0bf;
-    background: linear-gradient(90deg, #46e6a3 0, #6df34c 100%);
-    backdrop-filter: blur(10px);
+  border: 2px solid black;
+  border-radius: 10px;
+  left: 10px;
+  background: #edc0bf;
+  background: linear-gradient(90deg, #46e6a3 0, #6df34c 100%);
+  backdrop-filter: blur(10px);
 }
 
 .col {
-    border: 2px solid black;
-    border-radius: 10px;
-    height: 150px;
-    background: #edc0bf;
-    background: linear-gradient(90deg, #477dfccc 0, #6cee4cb7 100%);
-    backdrop-filter: blur(8px);
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 150px;
+  background: #edc0bf;
+  background: linear-gradient(90deg, #477dfccc 0, #6cee4cb7 100%);
+  backdrop-filter: blur(8px);
 }
 
 .col-5 {
-    border: 2px solid black;
-    border-radius: 10px;
-    background: #edc0bf;
-    background: linear-gradient(90deg, #e68646 0, #f34cc9 100%);
-    backdrop-filter: blur(10px);
-    left: 120px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: #edc0bf;
+  background: linear-gradient(90deg, #e68646 0, #f34cc9 100%);
+  backdrop-filter: blur(10px);
+  left: 20px;
 }
 
 .col h2 {
-    text-align: end;
+  text-align: end;
 }
 
 p, a {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 a {
-    color: #4d4ae8;
-    text-decoration: none;
-  }
+  color: #4d4ae8;
+  text-decoration: none;
+}
 
 
 #wrap {
-    min-height: 30%;
-  }
+  min-height: 30%;
+}
   
 #main {
-    overflow:auto;
-    padding-bottom: 30px; /* this needs to be bigger than footer height*/
-  }
+  overflow:auto;
+  padding-bottom: 30px; /* this needs to be bigger than footer height*/
+}
 
 
 .footer {
-    position: relative;
-    margin-top: -50px; /* negative value of footer height */
-    height: 50px;
-    clear:both;
-    padding-top:20px;
-  } 
+  position: relative;
+  margin-top: -10px; /* negative value of footer height */
+  height: 10px;
+  clear:both;
+  padding-top:20px;
+} 
 
-  .footer video {
-      height: 20em;
-      margin: 0px auto;
-      display: block;
-      bottom: 0;
-  }
+.footer video {
+  height: 20em;
+  margin: 0px auto;
+  display: block;
+}
