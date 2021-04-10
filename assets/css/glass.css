@@ -158,6 +158,45 @@ a {
   margin-bottom: 5px;
 }
 
+#cosplay {
+  border: 2px solid black;
+  background: #edc0bf;
+  background: linear-gradient(90deg, #e123e7c4 0, #32a80ea8 50%, #f73a33b0 100%);  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+
+
+#cosplay h1 {
+  text-align: center;
+}
+
+#cosplay h3 {
+  font-weight: 400px;
+  padding: -90px;
+}
+
+
+#cosplay .col-9 {
+  height: auto;
+  margin: 0px auto;
+  margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer {
   position: relative;
   margin-top: -10px; /* negative value of footer height */
