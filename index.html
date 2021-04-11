@@ -122,6 +122,12 @@
           </div>
         </div>
         
+        <div class="container">
+          <div class="row">
+            <button onclick="myFunction()" id="button" class="btn btn-primary">Push Me... If You Dare!</button>
+            <p id="demo"></p>
+          </div>
+        </div>
 
 <footer class="footer">
   <div>
@@ -129,11 +135,20 @@
   </div>
 </footer>
 
+
+
+
+
     <script>
       function show() {
         document.getElementById('sidebar').classList.toggle('active');
       }
     </script> 
+    <script>
+      function myFunction() {
+        document.getElementById("demo").innerHTML = "Testing";
+      }
+    </script>
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script type="module" src="assets/js/starter.js"></script>
   </body>

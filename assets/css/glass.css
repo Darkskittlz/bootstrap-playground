@@ -159,7 +159,6 @@ a {
   display: block;
   margin: 0px auto;
   margin-bottom: 5px;
-  height: 35vh;
 }
 
 #cosplay {
@@ -187,6 +186,12 @@ a {
 
 #anime.example-row.clear-top.container img {
   height: 45vh;
+}
+
+button#button.btn.btn-primary {
+  display: block;
+  margin: 0px auto;
+  margin-top: 10px;
 }
 
 .footer {
@@ -250,7 +255,7 @@ a {
     width: 325px;
   }
   #main.example-row.clear-top.container {
-    height: 460px;
+    height: 415px;
     width: 450px;
     margin-left: -70px;
   }
@@ -268,6 +273,16 @@ a {
     width: 270px;
     margin-left: 35px;
   }
+
+  button#button.btn.btn-primary {
+    margin-top: 28px;
+  }
+
+  button.btn.btn-primary {
+    margin: 0px auto;
+    width: auto;
+  }
+
   .footer {
     position: relative;
     margin-top: -10px; /* negative value of footer height */
