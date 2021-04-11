@@ -161,7 +161,7 @@ a {
 #cosplay {
   border: 2px solid black;
   background: #edc0bf;
-  background: linear-gradient(90deg, #e123e7c4 0, #32a80ea8 50%, #f73a33b0 100%);  backdrop-filter: blur(10px);
+  background: linear-gradient(90deg, #e76123c4 0, #5033f78f 100%);  backdrop-filter: blur(10px);
   border-radius: 10px;
   margin-bottom: 5px;
 }
