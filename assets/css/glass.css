@@ -73,8 +73,6 @@ body {
 
 .headerIMG {
   width: 40vh;
-  display:block;
-  margin-left: -17px;
 }
 
 .row h1 {
@@ -140,12 +138,12 @@ a {
   padding-bottom: 30px; /* this needs to be bigger than footer height*/
 }
 
-.example-content-main {
-  margin-left: 0px;
-}
-
-.example-content-secondary {
-  margin-left: 0px;
+#anime.example-content-secondary {
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  height: 190px;
+  width: 170px;
+  top: 20px;
 }
 
 .example-content-main ul li {
@@ -157,46 +155,11 @@ a {
   font-weight: 400;
 }
 
-@media only screen and (max-width: 411px) {
-  #cosplay.container-m h1 {
-    text-align: center;
-    margin-left: -40px;
-  }
-  #cosplay.container-m {
-    margin-left: -30px;
-    width: 450px;
-}
-  #cosplay.container-m div.row {
-    height: auto;
-    width: 411px;
-  }
-  #cosplay.container-m div.col-9 {
-    margin-left: 0;
-    margin: 15px;
-  }
-  #cosplay.container-m {
-    width: 350px;
-}
-  #cosplay.container-m h3 {
-    width: 325px;
-  }
-  .sakura {
-    height: 230px;
-  }
-  div.container .sakura {
-    margin: 0px auto;
-    margin-bottom: 10px;
-    margin-left: -62px;
-  }
-  .example-content-main img {
-    margin-left: -40px;
-  }
-}
-
 .sakura {
   display: block;
   margin: 0px auto;
   margin-bottom: 5px;
+  height: 35vh;
 }
 
 #cosplay {
@@ -222,13 +185,9 @@ a {
   margin-bottom: 5px;
 }
 
-
-.example-content-main img {
-  height: 220px;
-  width: 300px;
+#main.example-row.clear-top.container img {
+  height: 45vh;
 }
-
-
 
 .footer {
   position: relative;
@@ -242,4 +201,85 @@ a {
   height: 18em;
   margin: 0px auto;
   display: block;
+}
+
+
+@media only screen and (max-width: 411px) {
+  .headerIMG {
+    width: 50vh;
+    margin-left: -72px;
+  }
+  div.example-content-main {
+    width: 500px;
+    margin: 0px auto;
+    font-weight: 600;
+  }
+  div.example-content-secondary {
+    width: 500px;
+    margin: 0px auto;
+    font-weight: 600;
+  }
+  .sakura {
+    height: 230px;
+  }
+  div.container .sakura {
+    margin: 0px auto;
+    margin-bottom: 10px;
+    margin-left: -87px;
+  }
+
+  #cosplay.container-m h1 {
+    text-align: center;
+    margin-left: -40px;
+  }
+  #cosplay.container-m {
+    margin-left: -30px;
+    width: 450px;
+}
+  #cosplay.container-m div.row {
+    height: auto;
+  }
+  #cosplay.container-m div.col-9 {
+    margin-left: 0;
+    margin: 15px;
+  }
+  #cosplay.container-m {
+    width: 350px;
+}
+  #cosplay.container-m h3 {
+    width: 325px;
+  }
+  #main.example-row.clear-top.container {
+    height: 460px;
+    width: 450px;
+    margin-left: -70px;
+  }
+  #anime.example-row.clear-top.container {
+    height: 530px;
+    width: 450px;
+    margin-left: -55px;
+  }
+  #anime.example-row.clear-top.container img {
+    height: 44vh;
+    margin-left: -110px;
+  }
+  div#anime.example-content-secondary {
+    height: 175px;
+    width: 270px;
+    margin-left: 35px;
+  }
+  .footer {
+    position: relative;
+    margin-top: -10px; /* negative value of footer height */
+    height: 10px;
+    clear:both;
+    padding-top:20px;
+  } 
+
+  .footer video {
+    height: 18em;
+    margin: 0px auto;
+    margin-left: -15px;
+    display: block;
+  }
 }
