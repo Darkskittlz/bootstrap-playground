@@ -146,13 +146,11 @@ a {
 }
 
 .example-content-secondary ul li {
-  margin-left: -50px;
   font-weight: 400;
 }
 
 .sakura {
   display: block;
-  width: 90%;
   margin: 0px auto;
   margin-bottom: 5px;
 }
