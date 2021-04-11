@@ -140,13 +140,57 @@ a {
   padding-bottom: 30px; /* this needs to be bigger than footer height*/
 }
 
+.example-content-main {
+  margin-left: 0px;
+}
+
+.example-content-secondary {
+  margin-left: 0px;
+}
+
 .example-content-main ul li {
-  margin-left: -10px;
+  margin-left: 0px;
   font-weight: 600;
 }
 
 .example-content-secondary ul li {
   font-weight: 400;
+}
+
+@media only screen and (max-width: 411px) {
+  #cosplay.container-m h1 {
+    text-align: center;
+    margin-left: -40px;
+  }
+  #cosplay.container-m {
+    margin-left: -30px;
+    width: 450px;
+}
+  #cosplay.container-m div.row {
+    height: auto;
+    width: 411px;
+  }
+  #cosplay.container-m div.col-9 {
+    margin-left: 0;
+    margin: 15px;
+  }
+  #cosplay.container-m {
+    width: 350px;
+}
+  #cosplay.container-m h3 {
+    width: 325px;
+  }
+  .sakura {
+    height: 230px;
+  }
+  div.container .sakura {
+    margin: 0px auto;
+    margin-bottom: 10px;
+    margin-left: -62px;
+  }
+  .example-content-main img {
+    margin-left: -40px;
+  }
 }
 
 .sakura {
@@ -181,19 +225,8 @@ a {
 
 .example-content-main img {
   height: 220px;
-  display: block;
-  margin-left: -40px;  
+  width: 300px;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
