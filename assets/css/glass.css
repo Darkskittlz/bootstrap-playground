@@ -75,20 +75,6 @@ body {
   width: 40vh;
 }
 
-.row h1 {
-  display: block;
-  margin: 0px auto;
-  width: 100%;
-}
-
-.row h3 {
-  display: block;
-  margin: 0px auto;
-  margin-bottom: 20px;
-  width: 100%;
-  font-size: 1em;
-}
-
 .col-3 {
   border: 2px solid black;
   border-radius: 10px;
@@ -169,13 +155,18 @@ a {
   margin-bottom: 5px;
 }
 
+div.col-8 {
+  width: 100%;
+}
+
 #cosplay h1 {
   text-align: center;
 }
 
 #cosplay h3 {
-  font-weight: 400px;
-  padding: -90px;
+  font-weight: 100px;
+  text-align: center;
+  font-size: 1rem;
 }
 
 #cosplay .col-9 {
@@ -209,9 +200,9 @@ button#button.btn.btn-primary {
 }
 
 
-@media only screen and (max-width: 411px) {
+@media only screen and (max-width: 500px) {
   .headerIMG {
-    width: 50vh;
+    width: 80vh;
     margin-left: -72px;
   }
   div.example-content-main {
@@ -223,59 +214,61 @@ button#button.btn.btn-primary {
     width: 500px;
     margin: 0px auto;
     font-weight: 600;
+
   }
   .sakura {
-    height: 230px;
+    height: 270px;
   }
-  div.container .sakura {
-    margin: 0px auto;
+  div.container-fluid .sakura {
     margin-bottom: 10px;
-    margin-left: -87px;
+  }
+
+div.container-fluid {
+  display: block;
+  width: 100%;
+  margin-left: -82px;
+  }
+
+#cosplay.container-m {
+  margin-left: -30px;
+  width: 450px;
   }
 
   #cosplay.container-m h1 {
     text-align: center;
     margin-left: -40px;
   }
-  #cosplay.container-m {
-    margin-left: -30px;
-    width: 450px;
-}
+
   #cosplay.container-m div.row {
     height: auto;
   }
+
   #cosplay.container-m div.col-9 {
     margin-left: 0;
     margin: 15px;
   }
+
   #cosplay.container-m {
     width: 350px;
-}
+  }
+
   #cosplay.container-m h3 {
     width: 325px;
   }
+
   #main.example-row.clear-top.container {
     height: 415px;
     width: 450px;
     margin-left: -70px;
   }
-  #anime.example-row.clear-top.container {
-    height: 530px;
-    width: 450px;
-    margin-left: -55px;
-  }
+
   #anime.example-row.clear-top.container img {
-    height: 44vh;
+    height: 49vh;
     margin-left: -110px;
   }
-  div#anime.example-content-secondary {
-    height: 175px;
-    width: 270px;
-    margin-left: 35px;
-  }
-
-  button#button.btn.btn-primary {
-    margin-top: 28px;
+  
+  div#button.row {
+    height: 40px;
   }
 
   button.btn.btn-primary {
