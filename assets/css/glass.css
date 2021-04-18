@@ -3,10 +3,10 @@ html, body {
 }
 
 body {
-    padding: 4.5rem;
-    margin: 0;
-    background-image: url(../../img/paper.png);
-    font-family: 'Inter', sans-serif;
+  padding: 4.5rem;
+  margin: 0;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1107%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3ccircle r='77.74466922769447' cx='1291.74' cy='249.23' fill='%23037b0b'%3e%3c/circle%3e%3crect width='60' height='60' clip-path='url(%26quot%3b%23SvgjsClipPath1108%26quot%3b)' x='855.04' y='329.62' fill='url(%23SvgjsPattern1109)' transform='rotate(182.22%2c 885.04%2c 359.62)'%3e%3c/rect%3e%3crect width='206' height='206' clip-path='url(%26quot%3b%23SvgjsClipPath1110%26quot%3b)' x='499.98' y='-19.81' fill='url(%23SvgjsPattern1111)' transform='rotate(205.03%2c 602.98%2c 83.19)'%3e%3c/rect%3e%3ccircle r='46.666666666666664' cx='837.82' cy='266.54' fill='%23037b0b'%3e%3c/circle%3e%3cpath d='M568.7 512.39 L719.33 455.02L558.2985304761622 397.9885304761621z' stroke='%23d3b714' stroke-width='1' stroke-dasharray='4%2c 4'%3e%3c/path%3e%3crect width='208.56' height='208.56' clip-path='url(%26quot%3b%23SvgjsClipPath1112%26quot%3b)' x='66.65' y='359.3' fill='url(%23SvgjsPattern1113)' transform='rotate(247.65%2c 170.93%2c 463.58)'%3e%3c/rect%3e%3crect width='131.8' height='131.8' clip-path='url(%26quot%3b%23SvgjsClipPath1114%26quot%3b)' x='943.77' y='389.98' fill='url(%23SvgjsPattern1115)' transform='rotate(133.36%2c 1009.67%2c 455.88)'%3e%3c/rect%3e%3ccircle r='81.1358907437879' cx='257.62' cy='100.92' stroke='%23037b0b' stroke-width='2.41' stroke-dasharray='3%2c 3'%3e%3c/circle%3e%3ccircle r='46.666666666666664' cx='587.71' cy='443.97' stroke='%23d3b714' stroke-width='1'%3e%3c/circle%3e%3crect width='288' height='288' clip-path='url(%26quot%3b%23SvgjsClipPath1116%26quot%3b)' x='759.43' y='171.96' fill='url(%23SvgjsPattern1117)' transform='rotate(184.49%2c 903.43%2c 315.96)'%3e%3c/rect%3e%3ccircle r='46.666666666666664' cx='664.57' cy='479.17' fill='%23e73635'%3e%3c/circle%3e%3crect width='108' height='108' clip-path='url(%26quot%3b%23SvgjsClipPath1118%26quot%3b)' x='655.58' y='384.74' fill='url(%23SvgjsPattern1119)' transform='rotate(115.37%2c 709.58%2c 438.74)'%3e%3c/rect%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1107'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cpattern x='0' y='0' width='60' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1109'%3e%3crect width='60' height='3' x='0' y='0' fill='%23d3b714'%3e%3c/rect%3e%3crect width='60' height='3' x='0' y='3' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1108'%3e%3ccircle r='15' cx='885.04' cy='359.62'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='10.3' height='10.3' patternUnits='userSpaceOnUse' id='SvgjsPattern1111'%3e%3cpath d='M0 10.3L5.15 0L10.3 10.3' stroke='%23e73635' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1110'%3e%3ccircle r='51.5' cx='602.98' cy='83.19'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='9.48' height='9.48' patternUnits='userSpaceOnUse' id='SvgjsPattern1113'%3e%3cpath d='M4.74 1L4.74 8.48M1 4.74L8.48 4.74' stroke='%23037b0b' fill='none' stroke-width='1'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1112'%3e%3ccircle r='52.14' cx='170.93' cy='463.58'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='131.8' height='13.18' patternUnits='userSpaceOnUse' id='SvgjsPattern1115'%3e%3crect width='131.8' height='6.59' x='0' y='0' fill='%23037b0b'%3e%3c/rect%3e%3crect width='131.8' height='6.59' x='0' y='6.59' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1114'%3e%3ccircle r='32.95' cx='1009.67' cy='455.88'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='6' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1117'%3e%3cpath d='M0 6L3 0L6 6' stroke='%23d3b714' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1116'%3e%3ccircle r='72' cx='903.43' cy='315.96'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='108' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1119'%3e%3crect width='108' height='3' x='0' y='0' fill='%23037b0b'%3e%3c/rect%3e%3crect width='108' height='3' x='0' y='3' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1118'%3e%3ccircle r='27' cx='709.58' cy='438.74'%3e%3c/circle%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
+
 }
 
 
@@ -59,10 +59,16 @@ body {
 }
 
 #banner {
-  text-align: center;
-  display: block;
-  
+  backdrop-filter: blur(10px);
+  color: rgba(0, 0, 0, 0.705);
+
 }
+
+#banner h1 {
+  text-align: center;
+}
+
+
 
 .container-lg {
   display: block;
@@ -71,34 +77,14 @@ body {
   margin-bottom: 10px;
 }
 
-.headerIMG {
-  width: 40vh;
-}
-
-.col-3 {
-  border: 2px solid black;
-  border-radius: 10px;
-  left: 10px;
-  background: #edc0bf;
-  background: linear-gradient(90deg, #46e6a3 0, #6df34c 100%);
-  backdrop-filter: blur(10px);
-}
 
 .col {
-  border: 2px solid black;
   border-radius: 10px;
   height: 250px;
   width: 120px;
   backdrop-filter: blur(8px);
   margin: 5px;
-}
-
-.col-4 {
-  height: 220px;
-}
-
-.col-4 img {
-  height: 200px;
+  color: rgba(19, 4, 4, 0.986);
 }
 
 .col h2 {
@@ -107,6 +93,7 @@ body {
 
 p, a {
   font-size: 1rem;
+  
 }
 
 a {
@@ -124,12 +111,40 @@ a {
   padding-bottom: 30px; /* this needs to be bigger than footer height*/
 }
 
+div#banner.container {
+  text-align: center;
+}
+
+div.row {
+  display: block;
+  width: 100%;
+  margin: 0px auto;
+}
+
+#header img {
+  width: 120vh;
+  display: block;
+  margin: 0px auto;
+
+}
+
+div #main.example-row.clear-top.container {
+  background-color: rgba(255, 255, 255, 0.096);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;  
+  color: rgba(3, 2, 2, 0.705);
+}
+
 #anime.example-content-secondary {
   border-radius: 10px;
   backdrop-filter: blur(10px);
   height: 190px;
   width: 170px;
   top: 20px;
+  color: rgba(252, 2, 189, 0.808);
+
 }
 
 .example-content-main ul li {
@@ -148,15 +163,21 @@ a {
 }
 
 #cosplay {
-  border: 2px solid black;
-  background: #edc0bf;
-  background: linear-gradient(90deg, #e76123c4 0, #5033f78f 100%);  backdrop-filter: blur(10px);
+  text-align: center;
+  backdrop-filter: blur(10px);
   border-radius: 10px;
   margin-bottom: 5px;
 }
 
-div.col-8 {
+#cosplay div.col {
   width: 100%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.185);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-bottom: 10px;
 }
 
 #cosplay h1 {
