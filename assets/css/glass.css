@@ -221,11 +221,13 @@ button#button.btn.btn-primary {
 }
 
 
-@media only screen and (max-width: 500px) {
-  .headerIMG {
+@media only screen and (max-width: 503px) {
+  #header img {
     width: 80vh;
-    margin-left: -72px;
+    display: block;
+    margin: 0px auto;
   }
+
   div.example-content-main {
     width: 500px;
     margin: 0px auto;
