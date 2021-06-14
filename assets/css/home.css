@@ -1,0 +1,311 @@
+html, body {
+    height: 100%;
+}
+
+body {
+  padding: 4.5rem;
+  margin: 0;
+  background-image: url("../../img/ban.gif");
+  background-size: cover;
+  background-position: 50% 50%;
+  /* background-repeat: no-repeat; */
+  position: relative;
+}
+
+
+
+#sidebar {
+  position: absolute;
+  width: 11rem;
+  height: 100%;
+  left: -180px;
+  transition: .4s;
+  z-index: 1;
+  border: 1px solid black;
+  border-radius: 10px;
+  top: 0px;
+  background: #edc0bf;
+  background: linear-gradient(90deg, #0f57ff81 0, #f552df8a 100%);
+  backdrop-filter: blur(10px);
+} 
+    
+#sidebar.active {
+  left: 0;
+  height: 100%;
+}
+  
+#sidebar ul li a {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+  
+#sidebar ul li{
+  list-style: none;
+  font-size: 40px;
+  padding: 2px 2px;
+}
+
+  
+#sidebar .toggle-btn {
+  position: absolute;
+  left: 190px;
+  top: 10px;
+}
+  
+.toggle-btn span {
+  width: 45px;
+  height: 4px;
+  background: rgba(2, 2, 2, 0.938);
+  display: block;
+  margin-top: 4px;
+}
+
+#banner {
+  backdrop-filter: blur(10px);
+  color: rgba(0, 0, 0, 0.705);
+
+}
+
+#banner h1 {
+  text-align: center;
+}
+
+
+.col {
+  border-radius: 10px;
+  height: 250px;
+  width: 120px;
+  backdrop-filter: blur(8px);
+  margin: 5px;
+  color: rgba(19, 4, 4, 0.986);
+}
+
+.col h2 {
+  text-align: end;
+}
+
+
+#wrap {
+  min-height: 30%;
+}
+  
+#main {
+  overflow:auto;
+  padding-bottom: 30px; /* this needs to be bigger than footer height*/
+}
+
+div#banner.container {
+  text-align: center;
+}
+
+div.row {
+  display: block;
+  width: 100%;
+  margin: 0px auto;
+}
+
+#header img {
+  width: 70vh;
+  display: block;
+  margin: 0px auto;
+
+}
+
+div #main.example-row.clear-top.container {
+  background-color: rgba(255, 255, 255, 0.096);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;  
+  color: rgba(3, 2, 2, 0.705);
+}
+
+div #main.example-row.clear-top.container .example-content-secondary ul li{
+  color: black;
+}
+
+#anime.example-content-secondary {
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  height: 190px;
+  width: 170px;
+  top: 20px;
+}
+
+#anime.example-content-secondary h2{
+  color: rgb(234, 0, 255);
+  text-align: center;
+  font-size: 31px;
+}
+
+.example-content-main ul li {
+  margin-left: 0px;
+  font-weight: 600;
+}
+
+.example-content-secondary ul li {
+  font-weight: 400;
+  color: rgba(240, 2, 2, 0.918);
+}
+
+.sakura {
+  display: block;
+  margin: 0px auto;
+  margin-bottom: 5px;
+}
+
+#cosplay {
+  text-align: center;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+#cosplay div.col {
+  width: 100%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.185);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+#cosplay h1 {
+  text-align: center;
+}
+
+#cosplay h3 {
+  font-weight: 100px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+#cosplay .col-9 {
+  height: auto;
+  margin: 0px auto;
+  margin-bottom: 5px;
+}
+
+#anime.example-row.clear-top.container img {
+  height: 45vh;
+}
+
+button#button.btn.btn-primary {
+  display: block;
+  margin: 0px auto;
+  margin-top: 10px;
+}
+
+.footer {
+  position: relative;
+  margin-top: -10px; /* negative value of footer height */
+  height: 10px;
+  clear:both;
+  padding-top:20px;
+} 
+
+.footer video {
+  height: 18em;
+  margin: 0px auto;
+  display: block;
+}
+
+
+@media only screen and (max-width: 503px) {
+  #header img {
+    width: 80vh;
+    display: block;
+    margin: 0px auto;
+  }
+
+  div.example-content-main {
+    width: 500px;
+    margin: 0px auto;
+    font-weight: 600;
+  }
+  div.example-content-secondary {
+    width: 500px;
+    margin: 0px auto;
+    font-weight: 600;
+
+  }
+  .sakura {
+    height: 270px;
+  }
+  div.container-fluid .sakura {
+    margin-bottom: 10px;
+  }
+
+div.container-fluid {
+  display: block;
+  width: 100%;
+  margin-left: -82px;
+  }
+
+#cosplay.container-m {
+  margin-left: -30px;
+  width: 450px;
+  }
+
+  #cosplay.container-m h1 {
+    text-align: center;
+    margin-left: -40px;
+  }
+
+  #cosplay.container-m div.row {
+    height: auto;
+  }
+
+  #cosplay.container-m div.col-9 {
+    margin-left: 0;
+    margin: 15px;
+  }
+
+  #cosplay.container-m {
+    width: 350px;
+  }
+
+  #cosplay.container-m h3 {
+    width: 325px;
+  }
+
+  #main.example-row.clear-top.container {
+    height: 415px;
+    width: 450px;
+    margin-left: -70px;
+  }
+
+  #anime.example-row.clear-top.container img {
+    height: 49vh;
+    margin-left: -110px;
+  }
+  
+  div#button.row {
+    height: 40px;
+  }
+
+  button.btn.btn-primary {
+    margin: 0px auto;
+    width: auto;
+  }
+
+
+  .footer {
+    position: relative;
+    margin-top: -10px; /* negative value of footer height */
+    height: 10px;
+    clear:both;
+    padding-top:20px;
+  } 
+
+  .footer video {
+    height: 18em;
+    margin: 0px auto;
+    margin-left: -15px;
+    display: block;
+  }
+}

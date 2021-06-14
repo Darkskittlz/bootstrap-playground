@@ -1,24 +1,16 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
-
-  html {
-    min-width: 100%;
-    min-height: 100%;
-  }
+html, body {
+    height: 100%;
+}
 
 body {
   padding: 4.5rem;
   margin: 0;
-  height: 1000px;
-  font-family: Source Sans Pro;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("../../img/franx2.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url("../../img/banbg5.jpg");
   background-size: cover;
+  background-position: center;
   position: relative;
 }
+
 
 
 #sidebar {
@@ -40,7 +32,6 @@ body {
   left: 0;
   height: 100%;
 }
-
   
 #sidebar ul li a {
   text-decoration: none;
@@ -69,65 +60,53 @@ body {
   display: block;
   margin-top: 4px;
 }
+
 .projects {
+    border: 2px solid black;
+    height: 220px;
+    width: 250px;
+    background: linear-gradient(90deg, #0f57ffd2 0, #f552dfd0 100%);
+    border-radius: 10px;
     display: block;
-    background: linear-gradient(27deg, rgba(0, 0, 0, 0.986) 0%, rgba(182, 40, 139, 0.973) 6%, rgba(2, 74, 138, 0.966) 89%, rgba(0, 0, 0, 0.919) 100%);
-    border: 2px solid black;
-    border-radius: 10px;
-    height: 250px;
-    width: 350px;
-    text-align: left;
-    margin: 10px auto;
-    backdrop-filter: blur(4px);
-    src: url("fonts/notMyType.otf")
-  }
-  
-  .projects ol {
-    margin-left: 35px;
-    color: black;
-    margin-top: 10px;
-  }
-  
-  .projects h2 {
-    color: rgba(139, 255, 168, 0.884);
-    text-align: center;
-    font-size: 21px;
-    background: rgba(0, 0, 0, 0.884);
-    padding: 5px;
-    font-family: 'Syne Mono', monospace;
-    width: 150px;
-    margin: 0 auto;
-    margin-top: 5px;
-    border: 2px solid black;
-    border-radius: 10px;
-  }
-  
-  .projects li {
-    font-family: "Syne Mono";
-    font-size: larger;
-  }
-  
-  .projects a {
-    text-decoration: none;
-    color: rgb(64, 247, 9);
-    font-weight: 200;
-  }
-  
-  a:hover {
-    background-color: rgba(3, 2, 3, 0.301);
-    padding: 2px;
-  }
-  
-  .dewaltButton {
-    background: black;
     margin: 0px auto;
-    text-decoration: none;
+}
+
+.projects h2 {
+    text-align: center;
+    color: black;
+}
+
+.projects li a {
+    color: black;
+    font-size: 20px;
+}
+
+.projects li {
+    font-size: 25px;
+}
+
+button.dewaltButton {
+    background-color: rgb(105, 252, 130);
     display: block;
-    margin-top: 71px;
-    width: 160px;
-  }
-  
-  .dewaltButton a {
-    color: n;
-    font-family: "Syne Mono";
-  }
+    margin: 0px auto;
+}
+
+button.dewaltButton a {
+    color: black;
+    font-size: 16px;
+}
+
+.footer {
+    position: relative;
+    margin-top: -10px; /* negative value of footer height */
+    height: 10px;
+    clear:both;
+    padding-top:20px;
+} 
+
+.footer video {
+    height: 18em;
+    margin: 0px auto;
+    margin-left: -15px;
+    display: block;
+}
