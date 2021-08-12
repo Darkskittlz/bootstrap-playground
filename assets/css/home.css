@@ -220,6 +220,12 @@ button.btn {
   height: 55px;
 }
 
+button.btn.btn-outline-warning {
+  background-image: url("../../img/rain-anime.gif");
+  background-position: bottom;
+  background-size: cover; 
+}
+
 button.btn.btn-outline-primary {
   background-image: url("../../img/rain8.gif");
   background-position: center;
