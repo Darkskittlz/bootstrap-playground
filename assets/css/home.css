@@ -5,12 +5,14 @@ html, body {
 body {
   padding: 4.5rem;
   margin: 0;
-  background-image: url("../../img/ban.gif");
   background-size: cover;
   background-position: 50% 50%;
   /* background-repeat: no-repeat; */
   position: relative;
+  background-image: url("../../img/rain-anime-rain.gif");
 }
+
+
 
 
 
@@ -64,12 +66,15 @@ body {
 
 #banner {
   backdrop-filter: blur(10px);
-  color: rgba(0, 0, 0, 0.705);
+  background-color: rgba(255, 255, 255, 0.096);
+  width: 350px;
+  border-radius: 10px;
 
 }
 
 #banner h1 {
   text-align: center;
+  color: rgb(143, 3, 96);
 }
 
 
@@ -79,12 +84,10 @@ body {
   width: 120px;
   backdrop-filter: blur(8px);
   margin: 5px;
-  color: rgba(19, 4, 4, 0.986);
+  background-color: rgba(255, 255, 255, 0.096);
 }
 
-.col h2 {
-  text-align: end;
-}
+
 
 
 #wrap {
@@ -110,7 +113,6 @@ div.row {
   width: 70vh;
   display: block;
   margin: 0px auto;
-
 }
 
 div #main.example-row.clear-top.container {
@@ -119,41 +121,24 @@ div #main.example-row.clear-top.container {
   border-radius: 10px;
   margin-bottom: 10px;
   margin-top: 10px;  
-  color: rgba(3, 2, 2, 0.705);
-}
-
-div #main.example-row.clear-top.container .example-content-secondary ul li{
   color: black;
 }
 
-#anime.example-content-secondary {
-  border-radius: 10px;
-  backdrop-filter: blur(10px);
-  height: 190px;
-  width: 170px;
-  top: 20px;
+
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
-#anime.example-content-secondary h2{
-  color: rgb(234, 0, 255);
-  text-align: center;
-  font-size: 31px;
+div#cosplay.container-sm {
+  width: 450px;
 }
 
-.example-content-main ul li {
-  margin-left: 0px;
-  font-weight: 600;
+div#cosplay.container-sm h1{
+  color: black;
 }
 
-.example-content-secondary ul li {
-  font-weight: 400;
-  color: rgba(240, 2, 2, 0.918);
-}
-
-.sakura {
-  display: block;
-  margin: 0px auto;
-  margin-bottom: 5px;
+div#cosplay.container-sm h3{
+  color: black;
 }
 
 #cosplay {
@@ -166,7 +151,7 @@ div #main.example-row.clear-top.container .example-content-secondary ul li{
 #cosplay div.col {
   width: 100%;
   height: auto;
-  background-color: rgba(255, 255, 255, 0.185);
+  background-color: rgba(105, 105, 105, 0.705);
   backdrop-filter: blur(10px);
   border-radius: 10px;
   margin-bottom: 10px;
@@ -178,134 +163,143 @@ div #main.example-row.clear-top.container .example-content-secondary ul li{
   text-align: center;
 }
 
+div#contact.container.justify-content-center.d-flex {
+  margin: 0px auto;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+
+.icon {
+  height: 30px;
+  margin-top: 2px;
+  border-radius: 10px;
+  margin: 1px auto;
+  margin-left: 10px;
+}
+
+div#icons.container {
+  height: 35px;
+  padding-top: 2px;
+  width: 295px;
+  margin: 5px auto;
+  display: block;
+  border-radius: 10px;
+  background-color: rgba(7, 35, 36, 0.549);
+  backdrop-filter: blur(10px);
+}
+
+button {
+  width: 100px;
+}
+
+
 #cosplay h3 {
   font-weight: 100px;
   text-align: center;
   font-size: 1rem;
 }
 
-#cosplay .col-9 {
-  height: auto;
+div#main.example-row.clear-top.container h1{
+  text-align: center;
+  margin-left: -9px;
+  width: 300px;
+  color: black;
+}
+
+div#main.example-row.clear-top.container {
   margin: 0px auto;
+  text-align: center;
+  width: 330px;
+}
+
+button.btn {
   margin-bottom: 5px;
+  display: inline-block;
+  width: 260px;
+  height: 55px;
 }
 
-#anime.example-row.clear-top.container img {
-  height: 45vh;
+button.btn.btn-outline-primary {
+  background-image: url("../../img/rain8.gif");
+  background-position: center;
+  background-size: cover; 
 }
 
-button#button.btn.btn-primary {
-  display: block;
-  margin: 0px auto;
-  margin-top: 10px;
+button.btn.btn-outline-success {
+  background-image: url("../../img/rain7.gif");
+  background-size: cover;
+  background-position: center; 
 }
 
-.footer {
-  position: relative;
-  margin-top: -10px; /* negative value of footer height */
-  height: 10px;
-  clear:both;
-  padding-top:20px;
-} 
+button.btn.btn-outline-danger {
+  background-image: url("../../img/rain2.gif");
+  background-size: cover;
+  background-position: center; 
+}
 
-.footer video {
-  height: 18em;
-  margin: 0px auto;
-  display: block;
+button.btn.btn-outline-dark {
+  background-image: url("../../img/raingif.gif");
+  background-size: cover;
+  background-position: center; 
+}
+
+button.btn.btn-outline-secondary {
+  background-image: url("../../img/rain3.gif");
+  background-size: cover;
+  background-position: center; 
+}
+
+button.btn.btn-outline-info {
+  background-image: url("../../img/rain5.gif");
+  background-size: cover;
+  background-position: center; 
 }
 
 
-@media only screen and (max-width: 503px) {
+
+
+
+
+@media only screen and (max-width: 725px) {
+  body {
+    padding: 4.5rem;
+    max-width: 2000px;
+    width: 1000px;
+    height: auto;
+    background-repeat: repeat;
+    margin-left: -60px;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+
   #header img {
     width: 80vh;
     display: block;
     margin: 0px auto;
   }
 
-  div.example-content-main {
-    width: 500px;
-    margin: 0px auto;
-    font-weight: 600;
-  }
-  div.example-content-secondary {
-    width: 500px;
-    margin: 0px auto;
-    font-weight: 600;
-
-  }
-  .sakura {
-    height: 270px;
-  }
-  div.container-fluid .sakura {
-    margin-bottom: 10px;
-  }
-
-div.container-fluid {
-  display: block;
-  width: 100%;
-  margin-left: -82px;
-  }
-
-#cosplay.container-m {
-  margin-left: -30px;
-  width: 450px;
-  }
-
-  #cosplay.container-m h1 {
-    text-align: center;
-    margin-left: -40px;
-  }
-
-  #cosplay.container-m div.row {
-    height: auto;
-  }
-
-  #cosplay.container-m div.col-9 {
-    margin-left: 0;
-    margin: 15px;
-  }
-
-  #cosplay.container-m {
-    width: 350px;
-  }
-
-  #cosplay.container-m h3 {
-    width: 325px;
-  }
-
-  #main.example-row.clear-top.container {
-    height: 415px;
-    width: 450px;
-    margin-left: -70px;
-  }
-
-  #anime.example-row.clear-top.container img {
-    height: 49vh;
-    margin-left: -110px;
-  }
-  
-  div#button.row {
-    height: 40px;
-  }
-
-  button.btn.btn-primary {
-    margin: 0px auto;
-    width: auto;
-  }
-
-
-  .footer {
-    position: relative;
-    margin-top: -10px; /* negative value of footer height */
-    height: 10px;
-    clear:both;
-    padding-top:20px;
-  } 
-
-  .footer video {
-    height: 18em;
-    margin: 0px auto;
-    margin-left: -15px;
+  div#wrap.example.container {
+    width: 200px;
     display: block;
   }
+
+  div#main.example-row.content-main {
+
+  }
+
+div#banner.container {
+  display: block;
+  width: 300px;
+  margin: 0px auto;
+}
+
+div#icons.container {
+  margin: 0px auto;
+  width: 310px;
+  display: block;
+}
+
+
+
 }
