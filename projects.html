@@ -5,50 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/starter.css">
     <link rel="stylesheet" href="assets/css/projects.css">  
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Projects</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/css-doodle/0.4.9/css-doodle.min.js"></script>
+    <script>
+      document.addEventListener('click', function(e) {
+        e.target.update && e.target.update();
+      });
+      </script>
   </head>
   
 
 <body>
 
-  <div id="sidebar">
-    <div class="toggle-btn" onclick="show()">
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>   
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-    </ul>
-  </div>
-
-  <div class="projects">
-    <h2>Projects</h2>
-    <ol>
-        <li><a href="Playground/silly_kitty.html">Silly Kitty</a></li>
-        <li><a href="Playground/buttons.html">Push For Emergency</a></li>
-    </ol>
-    <button class='dewaltButton'><a href="https://jenniferdewalt.com/">Projects Inspo: Jennifer Dewalt</a></button>
-</div>
 
 
-    <script>
-        function show() {
-          document.getElementById('sidebar').classList.toggle('active');
-        }
-    </script> 
-    <script>
-        function myFunction() {
-          document.getElementById("demo").innerHTML = "Testing";
+  <css-doodle class="doodle" grid="12">
+    :doodle {
+      @grid: 12 / 100vmax;
+      background: #0a0c27;
+      filter: blur(.1px);
+      transform: scale(1.1)
     }
-    </script>
+    
+    @random {
+      border: 3px solid hsla(158, 70%, 68%, @rand(0.3));
+    }
+    
+    @random {
+       filter: blur(1.5px);
+    }
+    
+    @random {
+      animation: move 5s linear alternate infinite;
+    }
+    
+    @random(0.1) {
+      animation: flicker 5s ease infinite;
+    }
+    
+    @keyframes move {		
+      0% {
+        transform:	translate(
+        @rand(-50%, 50%), @rand(-50%, 50%)
+        );
+      }
+    
+      100% {
+        transform:	translate(
+        @rand(-50%, 50%), @rand(-50%, 50%)
+        );
+      }
+    }
+    
+    @keyframes flicker {
+      0% {
+        opacity: 1;
+      }
+    
+      50% {
+        opacity: 0;
+      }
+    
+      100% {
+        opacity: 1;
+      }
+    }
+    
+    border-radius: 50%;
+    background: hsla(158, 70%, 68%, @rand(0.6));
+    transform: scale(@rand(.5, 1.2))
+    translate(
+    @rand(-50%, 50%), @rand(-50%, 50%)
+    );
+  
+  </css-doodle>
+    
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script type="module" src="assets/js/starter.js"></script>
-
+    <script type="module" src="assets/js/home.js"></script>
 </body>
 </html>
