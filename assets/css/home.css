@@ -68,7 +68,7 @@ body {
 
 #banner h1 {
   text-align: center;
-  color: rgb(143, 3, 96);
+  color: rgb(194, 1, 11);
 }
 
 
@@ -103,6 +103,14 @@ div.row {
   display: block;
   width: 100%;
   margin: 0px auto;
+}
+
+#profilePic img {
+  height: 16rem;
+  border: 2px solid black;
+  border-radius: 80px;
+  margin: 10px auto;
+  display: block;
 }
 
 #header img {
@@ -271,6 +279,8 @@ button.btn.btn-outline-info {
     background-size: cover;
     background-position: 50% 50%;
   }
+
+  
 
   #banner {
     margin-left: -25px;
