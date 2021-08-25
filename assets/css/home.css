@@ -5,15 +5,10 @@ html, body {
 body {
   padding: 4.5rem;
   margin: 0;
-  background-size: cover;
-  background-position: 50% 50%;
-  /* background-repeat: no-repeat; */
-  position: relative;
+  background-size: contain;
+  background-position: center;
   background-image: url("../../img/rain-anime-rain.gif");
 }
-
-
-
 
 
 #sidebar {
@@ -69,7 +64,6 @@ body {
   background-color: rgba(255, 255, 255, 0.096);
   width: 350px;
   border-radius: 10px;
-
 }
 
 #banner h1 {
@@ -86,6 +80,8 @@ body {
   margin: 5px;
   background-color: rgba(255, 255, 255, 0.096);
 }
+
+
 
 
 
@@ -143,25 +139,23 @@ div#cosplay.container-sm h3{
 
 #cosplay {
   text-align: center;
-  backdrop-filter: blur(10px);
   border-radius: 10px;
   margin-bottom: 5px;
 }
 
 #cosplay div.col {
-  width: 100%;
+  width: 280px;
+  display: block;
+  margin: 0px auto;
   height: auto;
-  background-color: rgba(105, 105, 105, 0.705);
+  background-color: rgba(98, 214, 88, 0.384);
   backdrop-filter: blur(10px);
   border-radius: 10px;
   margin-bottom: 10px;
   margin-top: 10px;
-  padding-bottom: 10px;
+  padding: 15px;
 }
 
-#cosplay h1 {
-  text-align: center;
-}
 
 div#contact.container.justify-content-center.d-flex {
   margin: 0px auto;
@@ -197,7 +191,7 @@ button {
 #cosplay h3 {
   font-weight: 100px;
   text-align: center;
-  font-size: 1rem;
+  font-size: 15px;
 }
 
 div#main.example-row.clear-top.container h1{
@@ -270,42 +264,31 @@ button.btn.btn-outline-info {
 @media only screen and (max-width: 725px) {
   body {
     padding: 4.5rem;
-    max-width: 2000px;
-    width: 1000px;
+    display: block;
+    width: auto;
     height: auto;
     background-repeat: repeat;
-    margin-left: -60px;
     background-size: cover;
     background-position: 50% 50%;
   }
 
-  #header img {
-    width: 80vh;
-    display: block;
+  #banner {
+    margin-left: -25px;
+  }
+
+  div#icons.container {
     margin: 0px auto;
-  }
-
-  div#wrap.example.container {
-    width: 200px;
+    width: 310px;
     display: block;
   }
 
-  div#main.example-row.content-main {
-
+  #cosplay div.col {
+    margin-left: 0px;
   }
 
-div#banner.container {
-  display: block;
-  width: 300px;
-  margin: 0px auto;
-}
-
-div#icons.container {
-  margin: 0px auto;
-  width: 310px;
-  display: block;
-}
-
-
-
+  
+  div#main.example-row.clear-top.container {
+    margin-left: -25px;
+    padding-top: 10px;
+  } 
 }
