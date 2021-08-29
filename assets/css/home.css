@@ -58,17 +58,22 @@ body {
   display: block;
   margin-top: 4px;
 }
+div#banner.container {
+  display: block;
+  margin: 0px auto;
+}
 
 #banner {
   backdrop-filter: blur(10px);
   background-color: rgba(255, 255, 255, 0.096);
-  width: 350px;
+  width: 220px;
   border-radius: 10px;
 }
 
 #banner h1 {
   text-align: center;
-  color: rgb(194, 1, 11);
+  color: rgb(178, 1, 194);
+  font-size: 25px;
 }
 
 
@@ -80,10 +85,6 @@ body {
   margin: 5px;
   background-color: rgba(255, 255, 255, 0.096);
 }
-
-
-
-
 
 
 #wrap {
@@ -184,7 +185,7 @@ div#icons.container {
   height: 35px;
   padding-top: 2px;
   width: 295px;
-  margin: 5px auto;
+  margin: 0px auto;
   display: block;
   border-radius: 10px;
   background-color: rgba(7, 35, 36, 0.549);
@@ -280,16 +281,15 @@ button.btn.btn-outline-info {
     background-position: 50% 50%;
   }
 
-  
-
   #banner {
     margin-left: -25px;
   }
 
   div#icons.container {
     margin: 0px auto;
-    width: 310px;
+    width: 300px;
     display: block;
+    margin-left: -5px;
   }
 
   #cosplay div.col {
