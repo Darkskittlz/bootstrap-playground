@@ -5,9 +5,9 @@ html, body {
 body {
   padding: 4.5rem;
   margin: 0;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
-  background-image: url("../../img/rain-anime-rain.gif");
+  background-image: url("../../img/rain3.gif");
 }
 
 
@@ -194,8 +194,15 @@ div#icons.container {
 
 button {
   width: 100px;
+  font-weight: 400;
 }
 
+button.btn {
+  margin-bottom: 5px;
+  display: inline-block;
+  width: 260px;
+  height: 55px;
+}
 
 #cosplay h3 {
   font-weight: 100px;
@@ -217,12 +224,7 @@ div#main.example-row.clear-top.container {
   margin-top: 5px;
 }
 
-button.btn {
-  margin-bottom: 5px;
-  display: inline-block;
-  width: 260px;
-  height: 55px;
-}
+
 
 button.btn.btn-outline-warning {
   background-image: url("../../img/rain-anime.gif");
@@ -232,6 +234,12 @@ button.btn.btn-outline-warning {
 
 button.btn.btn-outline-primary {
   background-image: url("../../img/rain8.gif");
+  background-position: center;
+  background-size: cover; 
+}
+
+button.btn.btn-outline-light {
+  background-image: url("../../img/rainGIF7.gif");
   background-position: center;
   background-size: cover; 
 }
