@@ -153,11 +153,11 @@ div#cosplay.container-sm h3{
 }
 
 #cosplay div.col {
-  width: 280px;
+  width: 290px;
   display: block;
   margin: 0px auto;
   height: auto;
-  background-color: rgba(98, 214, 88, 0.384);
+  background-color: rgba(214, 88, 214, 0.384);
   backdrop-filter: blur(10px);
   border-radius: 10px;
   margin-bottom: 10px;
@@ -214,6 +214,7 @@ div#main.example-row.clear-top.container {
   margin: 0px auto;
   text-align: center;
   width: 330px;
+  margin-top: 5px;
 }
 
 button.btn {
