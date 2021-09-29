@@ -58,9 +58,12 @@ body {
   display: block;
   margin-top: 4px;
 }
-div#banner.container {
-  display: block;
-  margin: 0px auto;
+
+#banner.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 #banner {
@@ -97,7 +100,7 @@ div#banner.container {
 }
 
 div#banner.container {
-  text-align: center;
+  margin-left: 40px;
 }
 
 div.row {
@@ -106,12 +109,18 @@ div.row {
   margin: 0px auto;
 }
 
+div#profilePic.container {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 #profilePic img {
   height: 16rem;
   border-radius: 80px;
   border: 0px solid black;
-  margin: 10px auto;
-  display: block;
 }
 
 #header img {
@@ -124,6 +133,9 @@ div #main.example-row.clear-top.container {
   background-color: rgba(255, 255, 255, 0.096);
   backdrop-filter: blur(10px);
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin-bottom: 10px;
   margin-top: 10px;  
   color: black;
@@ -186,7 +198,9 @@ div#icons.container {
   padding-top: 2px;
   width: 295px;
   margin: 0px auto;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
   border-radius: 10px;
   background-color: rgba(7, 35, 36, 0.549);
   backdrop-filter: blur(10px);
