@@ -84,6 +84,7 @@ body {
   border-radius: 10px;
   height: 250px;
   width: 120px;
+  padding-top: 20px;
   backdrop-filter: blur(8px);
   margin: 5px;
   background-color: rgba(255, 255, 255, 0.096);
@@ -92,6 +93,13 @@ body {
 
 #wrap {
   min-height: 30%;
+  display: flex;
+  justify-content: center;
+
+  @media screen and (max-width: 915px){
+    width: 570px;
+    height: 20%;
+  }
 }
   
 #main {
@@ -110,11 +118,9 @@ div.row {
 }
 
 div#profilePic.container {
-  margin-left: 30px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
+
 }
 
 #profilePic img {
@@ -122,6 +128,42 @@ div#profilePic.container {
   border-radius: 80px;
   border: 0px solid black;
 }
+
+.icon {
+  height: 30px;
+  margin-top: 2px;
+  border-radius: 10px;
+  margin: 1px auto;
+  margin-left: 10px;
+}
+
+div#icons.container {
+  padding: 5px;
+  width: 16%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  border-radius: 10px;
+  background-color: rgba(7, 35, 36, 0.549);
+  backdrop-filter: blur(10px);
+}
+
+div#main.example-row.clear-top.container {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 42%;
+}
+
+div#main.example-row.clear-top.container h1{
+  text-align: center;
+  margin-left: -9px;
+  width: 300px;
+  color: black;
+}
+
 
 #header img {
   width: 70vh;
@@ -134,6 +176,7 @@ div #main.example-row.clear-top.container {
   backdrop-filter: blur(10px);
   border-radius: 10px;
   display: flex;
+  padding-top: 20px;
   flex-direction: column;
   justify-content: center;
   margin-bottom: 10px;
@@ -141,22 +184,6 @@ div #main.example-row.clear-top.container {
   color: black;
 }
 
-
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
-div#cosplay.container-sm {
-  width: 450px;
-}
-
-div#cosplay.container-sm h1{
-  color: black;
-}
-
-div#cosplay.container-sm h3{
-  color: black;
-}
 
 #cosplay {
   text-align: center;
@@ -184,28 +211,6 @@ div#contact.container.justify-content-center.d-flex {
   margin-top: 5px;
 }
 
-
-.icon {
-  height: 30px;
-  margin-top: 2px;
-  border-radius: 10px;
-  margin: 1px auto;
-  margin-left: 10px;
-}
-
-div#icons.container {
-  height: 35px;
-  padding-top: 2px;
-  width: 295px;
-  margin: 0px auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;  
-  border-radius: 10px;
-  background-color: rgba(7, 35, 36, 0.549);
-  backdrop-filter: blur(10px);
-}
-
 button {
   width: 100px;
   font-weight: 400;
@@ -224,19 +229,6 @@ button.btn {
   font-size: 15px;
 }
 
-div#main.example-row.clear-top.container h1{
-  text-align: center;
-  margin-left: -9px;
-  width: 300px;
-  color: black;
-}
-
-div#main.example-row.clear-top.container {
-  margin: 0px auto;
-  text-align: center;
-  width: 330px;
-  margin-top: 5px;
-}
 
 
 
@@ -293,35 +285,3 @@ button.btn.btn-outline-info {
 
 
 
-@media only screen and (max-width: 725px) {
-  body {
-    padding: 4.5rem;
-    display: block;
-    width: auto;
-    height: auto;
-    background-repeat: repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-  }
-
-  #banner {
-    margin-left: -25px;
-  }
-
-  div#icons.container {
-    margin: 0px auto;
-    width: 300px;
-    display: block;
-    margin-left: -5px;
-  }
-
-  #cosplay div.col {
-    margin-left: 0px;
-  }
-
-  
-  div#main.example-row.clear-top.container {
-    margin-left: -25px;
-    padding-top: 10px;
-  } 
-}
